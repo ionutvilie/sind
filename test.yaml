@@ -1,0 +1,8 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: some-secret
+data:
+  db-host: Zm9vLmV4YW1wbGUuY29t
+  db-passwor: YWRtaW5hZG1pbg==
+  db-user: YWRtaW4=

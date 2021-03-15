@@ -1,0 +1,15 @@
+creation_rules:
+  - path_regex: \.yaml$
+    pgp: 4C2B5DB47788E3FA,74887850B689A41D,C41249B90D8C104E
+    encrypted_regex: "^(data|stringData)$"
+  - path_regex: \.env$
+    pgp: 4C2B5DB47788E3FA,74887850B689A41D,C41249B90D8C104E
+  - path_regex: \.json$
+    pgp: 4C2B5DB47788E3FA,74887850B689A41D,C41249B90D8C104E
+    encrypted_regex: "^(data|stringData)$"
+  - pgp: 4C2B5DB47788E3FA,74887850B689A41D,C41249B90D8C104E
+# Research:gpg
+#  https://toolkit.fluxcd.io/guides/mozilla-sops/
+#  https://www.varokas.com/secrets-in-code-with-mozilla-sops/
+#  https://dev.to/stack-labs/manage-your-secrets-in-git-with-sops-for-kubernetes-57me
+
