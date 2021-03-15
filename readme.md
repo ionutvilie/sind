@@ -1,4 +1,4 @@
-# sops the gopass way 
+# sops in docker ( mozilla sops the gopass way )
 
 
 ## How to
