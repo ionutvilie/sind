@@ -3,8 +3,8 @@
 
 ## How to
 
-- `make build-sops-container` to build the sops docker image  
-- `make run-ubuntu-container` to start the docker container  
+- `make build-alpine-sops-container` to build the sops docker image  
+- `make run-alpine-container` to start the docker container  
 
 *or execute the commands under each make recipe from the makefile
 
